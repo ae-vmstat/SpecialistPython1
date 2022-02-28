@@ -14,3 +14,15 @@
 #    #
 #    #
 ######
+i = 1
+a = int(input("a: "))
+
+if (2 < a and a <= 30):
+    a = a - 2
+    print ("######")
+    while i <= a:
+        print("#    #")
+        i += 1
+    print ("######")
+else:
+    print ("a - error input")
