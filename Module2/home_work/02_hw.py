@@ -8,3 +8,16 @@
 # Например, 1 корова, 2 коровы, 5 коров, 125 коров.
 
 # TODO: your code here
+cow = int(input("kol-vo korov: "))
+cowa = cow % 10
+cowb = (cow % 100) // 10
+cowab = (cowa + (cowb * 10))
+
+if (cowa == 1 and cowab != 11):
+#if (cowa <= 1 and cowb < 1):
+    print (cow, "korova")
+elif (cowa !=0 and cowa < 5 and cowab != 11):
+    print (cow, "korovy")
+else:
+    print (cow, "korov")
+    
