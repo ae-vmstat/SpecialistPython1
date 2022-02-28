@@ -31,3 +31,10 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+i = 1
+x = float(input("цена единицы товара: "))
+a = int(input("кол-во единиц товара: "))
+
+while i <= a:
+  print(i, i * x)
+  i += 1
