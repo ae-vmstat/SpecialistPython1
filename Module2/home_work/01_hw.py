@@ -6,3 +6,13 @@
 # Выведите «YES», если можно отломить от шоколадки ровно k долек, и «NO» иначе.
 
 # TODO: your code here
+n = int(input("n: "))
+m = int(input("m: "))
+k = int(input("k: "))
+
+full = n * m
+
+if (full / k >= 1):
+    print ("YSE")
+else:
+    print ("NO")
