@@ -2,3 +2,11 @@
 # Вывести на экран сумму всех элементов.
 
 # TODO: your code here
+
+my_list = [1, -6, 5, 3, 7]
+sel = 0
+
+for el in my_list:
+    sel = sel + el
+
+print(sel)
