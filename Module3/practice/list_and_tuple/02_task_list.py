@@ -4,3 +4,10 @@
 fruits = ["яблоко", "банан", "киви", "ананас", "груша"]
 
 # TODO: your code here
+
+nf = 0
+
+for el in fruits:
+    nf += 1
+    print(nf, el)
+    
