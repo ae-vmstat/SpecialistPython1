@@ -2,3 +2,12 @@
 # Вывести на экран сумму всех положительных элементов.
 
 # TODO: your code here
+
+for el in my_list:
+    if el > 0:
+        sel = sel + el
+    else:
+        sel
+
+
+print(sel)
