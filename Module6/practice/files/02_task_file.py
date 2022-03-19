@@ -13,3 +13,12 @@
 prices = []
 
 # Подсказка: для преобразования строки в список вспомните про метод строки .split()
+
+with open("/data/sold.txt", "r") as f:
+    prices = f.read().split()
+
+prices = list(map(float, prices))
+
+print(sum(prices))
+print(max(prices))
+print(min(prices))
