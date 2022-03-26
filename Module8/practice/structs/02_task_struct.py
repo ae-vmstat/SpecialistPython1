@@ -5,3 +5,9 @@
 #   например, lst = [1, 2, 4, 5, 6, 2, 5, 2], нужно получить lst2 = [1, 2, 4, 5, 6]
 #   2. элементы исходного списка, которые не имеют повторений(встречаются только один раз):
 #   например, lst = [1 , 2, 4, 5, 6, 2, 5, 2], нужно получить lst2 = [1, 4, 6]
+import collections
+
+lst = [1, 2, 4, 5, 6, 2, 5, 2]
+
+print([item for item, count in collections.Counter(lst).items() if count > 0])
+print([item for item, count in collections.Counter(lst).items() if count == 1])
